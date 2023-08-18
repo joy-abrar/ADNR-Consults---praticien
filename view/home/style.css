@@ -1,0 +1,119 @@
+body
+{
+	margin: 0;
+}
+
+#mainPage
+{
+    width: 100vw;
+    height: 100vh;
+	background: white;
+}
+
+#connectionLogo
+{
+	width: 90%;
+}
+
+.form-control
+{
+	display: inline!important;
+}
+
+#sidePart
+{
+	background: url("images/background2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+#inputEmailForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+}
+
+.formControlStyle
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+}
+
+.styleText
+{
+	font-family: Segoe UI Light ;
+	text-decoration: none;
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#connectionMessage
+{
+	font-family: 'roboto condensed', sans-serif;
+	color: grey;
+}
+
+#borderLine
+{
+	font-family: segoe UI Light;
+	width: 30%;
+	height: 0px;
+}
+
+#formTitle
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+#connexionButton
+{
+	width: 85%;
+	min-width: 85%;
+	max-height: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: transparent;
+	left: 10%;
+	top: 75%;
+	color: white;
+	background: linear-gradient(to right, #ff725d, #ff9971);
+}
+
+#conditionsLink 
+{
+	font-family: Segoe UI Light;
+	text-decoration: none;
+}
+
+
+@media (max-width: 575.98px)
+{
+	#sidePart
+	{
+		background: none;
+	}
+}
+
+@media (max-width: 767.98px)
+{
+	#textParam
+	{
+		text-align: center;
+	}
+}
+
+@media (max-width: 962px) and (min-width: 768px)
+{
+	#connectionMessage
+	{
+		text-align: center;
+	}
+}

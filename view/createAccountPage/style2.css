@@ -1,0 +1,334 @@
+/* ------------------------ SCROLL BAR PARAM -------------------------------*/
+::-webkit-scrollbar 
+{
+
+	width: 4px;
+  min-width: 5px;
+  max-width: 5px;
+  background: white;
+}
+
+::-webkit-scrollbar-track 
+{
+   background: white;
+}
+
+
+
+/* ------------------------ END SCROLL BAR PARAM -----------------------*/
+
+/* ------------ Signature Canvas -------------*/
+#sig-canvas 
+{
+  border: 2px dotted #CCCCCC;
+  border-radius: 15px;
+  cursor: crosshair;
+}
+
+#sig-dataUrl
+{
+  display: none;
+}
+
+#sig-image
+{
+  display: none;
+}
+
+#hiddenSignature
+{
+	display: none;
+}
+/* ----------- END Signature Canvas ---------- */
+
+
+
+
+#connectionLogoBloc
+{
+	position: relative;
+	top: 1%;
+	left: 14%;
+	width: 75%;
+	min-width: 75%;
+	max-width: 75%;
+}
+
+#connectionLogo
+{
+	width: 90%;
+}
+
+#formTitle
+{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#borderLine
+{
+	font-family: segoe UI Light;
+	width: 30%;
+}
+
+#connectionMessage
+{
+	font-family: 'roboto condensed', sans-serif;
+	color: grey;
+}
+
+#connectionForm
+{
+	position: relative;
+	flex-direction: column;
+	/*border: 1px solid black;*/
+	top: 18%;
+	height: 40%;
+	max-height: 40%;
+	min-height: 40% ;
+	width: 85%;
+	max-width: 85%;
+	min-width: 85%;
+	left: 10%;
+}
+
+
+#textParam
+{
+	margin: 3%;
+	font-family: Segoe UI Light;
+}
+
+#choiceParam
+{
+	margin-top: 3.5%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+#faceRecognitionBloc
+{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: space-around;
+	display: none;
+}
+
+#inputPraticienRoadNumberForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;
+}
+
+#inputPraticienComplementAddressForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;	
+}
+
+#inputPraticienCityNameForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;	
+}
+
+#inputPraticienRoadNameForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;
+}
+
+#inputPraticienCodePostalForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;	
+}
+
+#inputPraticienCountryForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;	
+}
+
+#inputPraticienCabinetPhoneNumber
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;
+}
+
+#showOrHidePassword
+{
+	position: absolute;
+	right: 16%;
+	top: 50%;
+}
+
+#forgetPasswordLink
+{
+	font-family: Segoe UI Light ;
+	text-decoration: none;
+	position: absolute;
+	right: 15%;
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+#connexionButton
+{
+	position: relative;
+	width: 85%;
+	min-width: 85%;
+	max-height: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: transparent;
+	border-radius: 5px;
+	left: 0%;
+	top: 0%;
+	color: white;
+	background: linear-gradient(to right, #2FF8B1, #100c3a);
+}
+
+
+
+
+#sidePart
+{
+	background: url("images/background2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#homeFeed
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid grey;
+	margin: auto;
+	width: 60%;
+	min-width: 60%;
+	max-width: 60%;
+	height: 60%;
+	min-height: 60%;
+	max-height: 60%;
+	border-radius: 10px;
+	background: white;
+}
+
+#terms
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: 7%;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	left: 0%;
+	text-align: center;
+}
+
+#conditionsLink 
+{
+	font-family: Segoe UI Light;
+	text-decoration: none;
+	padding-left: 0%;
+	padding-right: 0%;
+	min-width: 25%;
+	/*
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	*/
+}
+
+#conditionsLink:hover
+{
+	color: green;
+	transition-duration: 0.5s;
+}
+
+h4
+{
+	font-weight: bold!important;
+	font-size: 16px!important;
+}
+
+@media (max-width: 575.98px)
+{
+	#sidePart
+	{
+		background: none;
+	}
+}
+
+@media (max-width: 767.98px)
+{
+	#textParam
+	{
+		text-align: center;
+	}
+}
+
+@media (max-width: 962px) and (min-width: 768px)
+{
+	#connectionMessage
+	{
+		text-align: center;
+	}
+}

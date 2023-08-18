@@ -1,0 +1,454 @@
+
+body
+{
+    overflow-x: hidden;
+    background: url(images/background.png) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 0;
+}
+
+#topMenuNav 
+{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    /* border: 1px solid #71c5a9; */
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    background: white;
+    height: 8vh;
+    min-height: 8vh;
+    max-height: 8vh;
+    /*margin-top: -0.4%;*/
+    margin-top: 0%;
+    left: 0;
+    border-bottom: 1px solid grey;
+    box-shadow: 1px 2px 3px grey;
+
+
+    position: fixed;
+    top: 0;
+}
+
+#topMenuNav > div:nth-child(1)
+{
+    display: flex;
+    flex-direction: row;
+    width: 16vw;
+    min-width: 16vw;
+    max-width: 16vw;
+}
+
+#logoImage 
+{
+    display: flex;
+    flex-direction: row;
+    position: initial;
+    top: 0;
+    width: auto;
+    height: auto;
+}
+
+#usernameTopNav 
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 0%;
+    display: none;
+}
+
+.fa-microphone
+{
+    font-size: 30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#searchBox 
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    width: 60vw;
+    min-width: 60vw;
+    max-width: 60vw;
+    margin-left: 0vw;
+}
+
+#searchBox > form 
+{
+    display: flex;
+    width: 90%;
+}
+
+#searchBoxTopNav 
+{
+    align-items: center;
+    align-content: center;
+    width: 120%;
+    height: 2rem;
+    border: none;
+    border-radius: 30px;
+    background: lightgrey;
+    font-style: italic;
+}
+
+
+#bellNotification
+{
+    display: flex;
+    position: absolute;
+    font-size: 11px;
+    color: red;
+    top: 3vh;
+    right: 18.5vw;
+
+}
+
+#timeClock 
+{
+    display: flex;
+    flex-direction: row;
+    position: initial;
+    align-items: center;
+    width: 15vw;
+    min-width: 15vw;
+    max-width: 15vw;
+    margin-left: 0;
+    /*
+    display: flex;
+    flex-direction: row;
+    position: initial;
+    width: 60vw;
+    min-width: 60vw;
+    max-width: 60vw;
+    margin-left: 0;
+    */
+}
+
+#clock
+{
+    display: none;
+}
+
+#time 
+{
+    color: black;
+    font-size: 18px;
+}
+
+#day 
+{
+    color: black;
+    font-size: 18px;
+}
+
+#date 
+{
+    color: black;
+    font-size: 18px;
+}
+
+#agenda
+{
+    display: none;
+}
+
+#username
+{
+    display: none;
+}
+
+#logout 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0%;
+    margin-top: 0%;
+    color: white;
+}
+
+#logoutLink 
+{
+    text-decoration: none;
+    color: grey;
+}
+
+#logoutLink:hover 
+{
+   color: #ff9971;
+   transition-duration: 0.7s;
+}
+
+
+::-webkit-scrollbar-thumb 
+{
+  /*background: #2FF8B1;*/
+  background: grey;
+}
+
+.main-menu 
+{
+    background: #F7F7F7;
+    position: fixed;
+    top: 8vh;
+    bottom: 0;
+    height: 92vh;
+    left: 0;
+    width: 55px;
+    overflow: hidden;
+    -webkit-transition: width .2s linear;
+    transition: width .2s linear;
+    -webkit-transform: translateZ(0) scale(1,1);
+    box-shadow: 1px 0 15px rgb(0 0 0 / 7%);
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+#searchBox > form > button 
+{
+    width: 23 px;
+    height: 23px;
+    background: transparent;
+    border: none;
+}
+
+#searchBox > form > button > img 
+{
+    width: 23 px;
+    height: 33px;
+    margin-left: 4%;
+}
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a 
+{
+    background-color: #ff9971;
+}
+
+.main-menu:hover, nav.main-menu.expanded
+{
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar 
+{
+    width: 4px;
+    min-width: 5px;
+    max-width: 5px;
+    background: white;
+}
+
+
+
+/* ------------------------------ NOTIFICATION MENUBAR -------------------------------- */
+/*@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');*/
+    /*
+    *
+    {
+      padding: 0px;
+      margin: 0px
+    }
+    */
+
+    /*body
+    {
+      background: #8E24AA;
+      color:#fff;
+      font-family: 'Manrope', sans-serif
+    }*/
+
+    nav
+    {
+      display: flex;
+      align-items: center;
+      background: #AB47BC;
+      height: 60px;
+      position: relative;
+      border-bottom: 1px solid #495057
+    }
+
+    .icon
+    {
+      cursor: pointer;
+      margin-right: 30px;
+      line-height: 60px
+    }
+    .icon span
+    {
+      background: #f00;
+      padding: 7px;
+      border-radius: 50%;
+      color: #fff;
+      vertical-align: top;
+      margin-left: -25px
+    }
+    .icon img
+    {
+      display: inline-block;
+      width: 26px;
+      margin-top: 4px
+    }
+
+    .icon:hover
+    {
+      opacity: .7
+    }
+
+    .logo
+    {
+      flex: 1;
+      margin-left: 50px;
+      color: #eee;
+      font-size: 20px;
+      font-family: monospace
+    }
+
+    .notifications
+    {
+      width: 300px;
+      height: 0px;
+      opacity: 0;
+      position: absolute;
+      top: 63px;
+      right: 62px;
+      border-radius: 5px 0px 5px 5px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+
+    .notifications h2
+    {
+      font-size: 14px;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      color: #999
+    }
+
+    .notifications h2 span
+    {
+      color: #f00
+    }
+
+    .notifications-item
+    {
+      display: flex;
+      border-bottom: 1px solid #eee;
+      padding: 6px 9px;
+      margin-bottom: 0px;
+      cursor: pointer
+    }
+
+    .notifications-item:hover
+    {
+      background-color: #eee
+    }
+
+    .notifications-item img
+    {
+      display: block;
+      width: 50px;
+      height: 50px;
+      margin-right: 9px;
+      border-radius: 50%;
+      margin-top: 2px
+    }
+
+    .notifications-item .text h4
+    {
+      color: #777;
+      font-size: 16px;
+      margin-top: 3px
+    }
+
+    .notifications-item .text p
+    {
+      color: #aaa;
+      font-size: 12px
+    }
+
+    #box > div > div
+    {
+        white-space: unset;
+    }
+
+/* ------------------------- END NOTIFICATION MENUBAR ------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 360px)
+{
+    #searchBox
+    {
+        display: none;
+    }
+
+    #topMenuNav > div:nth-child(1)
+    {
+        width: 30vw;
+        min-width: 30vw;
+        max-width: 30vw;
+    }
+
+    #logoImage 
+    {
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        top: 0;
+        width: auto;
+        height: auto;
+    }
+
+    #timeClock
+    {
+        width: 60vw;
+    min-width: 60vw;
+    max-width: 60vw;
+    }
+}
